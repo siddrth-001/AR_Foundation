@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class CannonScript : MonoBehaviour
 {
+    public GameObject Cannon;
     // Start is called before the first frame update
     void Start()
     {
@@ -13,6 +14,16 @@ public class CannonScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+    
+    }
+
+    public void IsRightRotate()
+    {
+
+    }
+
+    public void IsLeftRotate()
+    {
+
     }
 }
